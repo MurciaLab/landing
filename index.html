@@ -11,6 +11,28 @@
   <title>MurciaLab</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="stylesheet" href="landing.css">
+  <!-- Disable Google Analytics cookies storage -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XYLL3TS79T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XYLL3TS79T',
+      { 'allow_google_signals': false },
+      { 'allow_ad_personalization_signals': false },
+      { 'restricted_data_processing': true }
+    );
+  </script>
 </head>
 
 <body>
