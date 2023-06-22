@@ -88,7 +88,6 @@ body {
   font-size: large;
   width: 10rem;
   height: 3rem;
-  padding: 1rem 2rem;
   border: 0.15rem solid #000;
   background: transparent;
   cursor: pointer;
@@ -97,6 +96,9 @@ body {
   display: flex;
   transition: all 0.3s ease;
   overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #manifesto:after {
