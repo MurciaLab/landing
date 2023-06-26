@@ -80,7 +80,7 @@ body {
   margin-top: 3rem;
 }
 
-#manifesto {
+.mlabt {
   margin: 1rem;
   outline: none;
   font-family: 'Montserrat', sans-serif;
@@ -101,7 +101,7 @@ body {
   flex-direction: column;
 }
 
-#manifesto:after {
+.mlabt:after {
   position: absolute;
   content: " ";
   top: 0;
@@ -113,12 +113,12 @@ body {
   transform: scale(.1);
 }
 
-#manifesto:hover {
+.mlabt:hover {
   color: rgb(255, 255, 255);
   background-color: #000;
 }
 
-#manifesto:hover:after {
+.mlabt:hover:after {
   background: #000;
   transform: scale(1);
 }
